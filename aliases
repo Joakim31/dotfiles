@@ -1,0 +1,11 @@
+# Aliases personales de ejemplo. Ajusta a tu gusto en TU repo de dotfiles.
+alias ll='ls -lah'
+alias gs='git status -sb'
+alias gd='git diff'
+alias gl='git log --oneline --graph --decorate -20'
+ 
+# Atajos del proyecto poliglota
+alias api-start='cd /workspaces/*/api && npm start'
+alias api-test='cd /workspaces/*/api && npm test'
+alias datos-run='cd /workspaces/*/datos && python3 generar_inventario.py'
+alias verificar='/workspaces/*/scripts/verify.sh'
